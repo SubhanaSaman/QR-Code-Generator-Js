@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #0f172a; /* Dark navy background */
+}
+
+#box {
+  background: #1e293b; /* Dark card */
+  padding: 30px 35px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  width: 360px;
+}
+
+#box h2 {
+  margin-bottom: 20px;
+  color: #38bdf8; /* Light blue accent */
+  text-shadow: 0 0 8px rgba(56, 189, 248, 0.6);
+}
+
+#text {
+  width: 90%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 2px solid #38bdf8;
+  background: #0f172a;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+#text:focus {
+  border-color: #f43f5e; /* Pink when focused */
+  box-shadow: 0 0 8px #f43f5e;
+}
+
+button {
+  padding: 12px 18px;
+  margin: 12px 6px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  background: linear-gradient(135deg, #38bdf8, #f43f5e);
+  color: #fff;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 12px #38bdf8, 0 0 12px #f43f5e;
+}
+
+/* 🔲 QR Box - prominent glowing container */
+#QrBox {
+  margin-top: 25px;
+  padding: 25px;
+  min-height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #38bdf8;
+  border-radius: 14px;
+  background: #0f172a;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.6);
+  transition: 0.3s;
+}
+
+#QrBox:hover {
+  box-shadow: 0 0 25px rgba(244, 63, 94, 0.7), 0 0 25px rgba(56, 189, 248, 0.7);
+}
